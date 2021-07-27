@@ -1,4 +1,4 @@
-# Reclaim Traditional name form accessibility
+# Reclaim traditional name form accessibility
 # reclaim-traditional-name-accessibility
 ## Traditional language
 ### Traditional language basics
