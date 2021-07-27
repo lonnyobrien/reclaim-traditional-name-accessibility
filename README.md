@@ -7,8 +7,6 @@ An Indigenous name could be a single name in traditional culture, not use the sa
 ## Form accessibility
 ### Functional performance
 Forms should be easy for First Nations, Inuit or Métis community members with permanent, temporary or situational disabilities to use with (or without) assistive technologies regardless of physical, cognitive or sensory abilities. 
-### Email field validation
-When defining email field validation, allow for EAI (smtputf8) names.
 ### Input errors
 Automatically detected errors should be described to the user in text and when possible corrections are suggested unless it would jeopardize security. Labels and instructions should be provided when content requires user input.
 ### Legal commitments or financial transactions
@@ -18,7 +16,9 @@ For each step in an authentication process that relies on a cognitive function t
 ### Redundant entry
 Information previously provided by the user is auto-populated or available for the user to select except when re-entering the information is essential.
 ### Technology neutral
-Guidance is generic to apply to more than one platform including current and emerging technology. 
+Guidance is generic to apply to more than one platform including current and emerging technology.
+### Email field validation
+When defining email field validation, allow for EAI (smtputf8) names.
 ## Language
 ### Language basics
 1. [ ] It should be possible to associate a language with any piece of natural language text that will be read by a user.
