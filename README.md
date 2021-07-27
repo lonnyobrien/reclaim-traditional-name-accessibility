@@ -320,10 +320,12 @@ The following section is adapted from the Internationalization Best Practices fo
 ## Navigation
 ### Providing for  content negotiation based on language
 1. [ ] In a multilingual environment it must be possible for the user to receive text in the language they prefer. This may depend on implicit user preferences based on the user's system or browser setup, or on user settings explicitly negotiated with the user.
-# Americas Language Enablement (amlreq)
+
+## World Wide Web Consortium (W3C) resources
+### Americas Language Enablement (amlreq)
 This repository provides information on gaps in support for languages of the Americas on the Web and in eBooks, and to document requirements. 
 <a href="https://github.com/w3c/amlreq/">Americas Language Enablement (amlreq) GitHub Repo</a>
-# WAI-ARIA: Authoring Practices Guide
+### WAI-ARIA: Authoring Practices Guide
 This repository maintains the WAI-ARIA Authoring Practices Guide. <a href="https://github.com/w3c/aria-practices">WAI-ARIA: Authoring Practices Guide, GitHub Repository</a>
-# World Wide Web Consortium (W3C) GitHub Repository 
+### World Wide Web Consortium (W3C) GitHub Repository 
 Web Content Accessibility Guidelines, EPUB and many other standards are available from the <a href="https://github.com/w3c">World Wide Web Consortium, GitHub Repositories</a>
