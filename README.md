@@ -7,7 +7,7 @@ An Indigenous name could be a single name in traditional culture, not use the sa
 ## Form accessibility
 ### Functional performance
 Forms should be easy for First Nations, Inuit or Métis community members with permanent, temporary or situational disabilities to use with (or without) assistive technologies regardless of physical, cognitive or sensory abilities. 
-### Designing forms
+### Email field validation
 When defining email field validation, allow for EAI (smtputf8) names.
 ### Input errors
 Automatically detected errors should be described to the user in text and when possible corrections are suggested unless it would jeopardize security. Labels and instructions should be provided when content requires user input.
