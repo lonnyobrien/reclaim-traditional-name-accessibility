@@ -5,8 +5,10 @@ Provide developer guidance to better support the digital accessibility needs of 
 ## Traditional name
 An Indigenous name could be a single name in traditional culture, not use the same alphabet or sounds, or have an English or French translation. The name change could also have publication exemptions intended to prevent significant harm to the person. Residential school survivors and their family members may also reclaim their traditional name.
 ## Form accessibility
-### Functional performance basics
+### Functional performance
 Forms should be easy for First Nations, Inuit or Métis community members with permanent, temporary or situational disabilities to use with (or without) assistive technologies regardless of physical, cognitive or sensory abilities. 
+### Designing forms
+When defining email field validation, allow for EAI (smtputf8) names.
 ### Input errors
 Automatically detected errors should be described to the user in text and when possible corrections are suggested unless it would jeopardize security. Labels and instructions should be provided when content requires user input.
 ### Legal commitments or financial transactions
@@ -303,9 +305,6 @@ Guidance is generic to apply to more than one platform including current and eme
 1. [ ] You may want to store the name in both Latin and native scripts, in which case you probably need to ask the user to submit their name in both native script and Latin-only form, as separate items.
 1. [ ] In standards and standards related documents containing examples that include names of persons, use a variety of names to reflect a global audience. Avoid a bias of names specific to certain regions.
 
-### Designing forms
-1. [ ] When defining email field validation, allow for EAI (smtputf8) names.
-
 ### Working with numbers
 1. [ ] When parsing user input of numeric values, allow for digit shaping (non-ASCII digits).
 1. [ ] When formatting numeric values for display, allow for culturally sensitive display, including the use of non-ASCII digits (digit shaping).
@@ -320,3 +319,5 @@ Guidance is generic to apply to more than one platform including current and eme
 ## Navigation
 ### Providing for  content negotiation based on language
 1. [ ] In a multilingual environment it must be possible for the user to receive text in the language they prefer. This may depend on implicit user preferences based on the user's system or browser setup, or on user settings explicitly negotiated with the user.
+# Americas Language Enablement (amlreq)
+This repository provides information on gaps in support for languages of the Americas on the Web and in eBooks, and to document requirements. < a href="https://github.com/w3c/amlreq/">Americas Language Enablement (amlreq) GitHub Repo</a>
