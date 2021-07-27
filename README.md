@@ -6,9 +6,9 @@ Provide developer guidance to better support the digital accessibility needs of 
 An Indigenous name could be a single name in traditional culture, not use the same alphabet or sounds, or have an English or French translation. The name change could also have publication exemptions intended to prevent significant harm to the person. Residential school survivors and their family members may also reclaim their traditional name.
 ## Form accessibility
 ### Performance
-Forms should be easy for First Nations, Inuit or Métis community members with permanent, temporary or situational disabilities to use with (or without) assistive technologies regardless of physical, cognitive or sensory abilities. 
+Forms should be strive to be easy for First Nations, Inuit or Métis community members with permanent, temporary or situational disabilities to use with (or without) assistive technologies regardless of physical, cognitive or sensory abilities. 
 ### Errors
-Automatically detected errors should be described in the text and corrections suggested unless it would jeopardize security. Field labels and form instructions should be provided when content requires client input. Avoid placeholder text in form fields that can be read aloud by assistive technology and not have enough contrast variance.
+Automatically detected errors should be described in the text and corrections suggested unless it would jeopardize security. Field labels and form instructions should be provided to explain client input. Avoid placeholder text in form fields that can be read aloud by assistive technology and not have enough contrast variance.
 ### Commitments
 Forms with legal commitments or financial transactions should be reversible and provide options for reviewing, confirming, and correcting errors before final submission. 
 ### Processes
@@ -20,7 +20,7 @@ Guidance is generic to apply to more than one platform including current and fut
 ### Email
 When defining email field validation, allow for EAI (smtputf8) names.
 ## Language
-The following section is adapted from the Internationalization Best Practices for Spec Developers, Create a github checklist. <a href="https://github.com/w3c/bp-i18n-specdev/">Internationalization Best Practices for Spec Developers, GitHub Repository</a>
+The following section is adapted from the Internationalization Best Practices for Spec Developers, Create a GitHub checklist. <a href="https://github.com/w3c/bp-i18n-specdev/">Internationalization Best Practices for Spec Developers, GitHub Repository</a>
 ### Basics
 1. [ ] It should be possible to associate a language with any piece of natural language text that will be read by a user.
 1. [ ] Where possible, there should  be a way to label natural language changes in inline text.
@@ -323,3 +323,7 @@ The following section is adapted from the Internationalization Best Practices fo
 # Americas Language Enablement (amlreq)
 This repository provides information on gaps in support for languages of the Americas on the Web and in eBooks, and to document requirements. 
 <a href="https://github.com/w3c/amlreq/">Americas Language Enablement (amlreq) GitHub Repo</a>
+# WAI-ARIA: Authoring Practices Guide
+This repository maintains the WAI-ARIA Authoring Practices Guide. <a href="https://github.com/w3c/aria-practices">WAI-ARIA: Authoring Practices Guide, GitHub Repository</a>
+# World Wide Web Consortium (W3C) GitHub Repository 
+Web Content Accessibility Guidelines, EPUB and many other standards are available from the <a href="https://github.com/w3c">World Wide Web Consortium, GitHub Repositories</a>
