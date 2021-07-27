@@ -1,7 +1,9 @@
 # Reclaim traditional name form accessibility
 # reclaim-traditional-name-form-accessibility
+## Scope
+Provide developer guidance to better support the digital accessibility needs of First Nations, Inuit or Métis residential school survivors and their family members with disabilities when using Indigenous names on forms on websites, web apps and in electronic documents.
 ## Reclaim a traditional name
-First Nations, Inuit or Métis residential school survivors and their family may reclaim their Indigenous name that could be a single name in their traditional culture, not use the same alphabet or sounds or have an English or French translation. The name change could also have publication exemptions intended to prevent significant harm to the person. 
+First Nations, Inuit or Métis individuals and their family may reclaim their Indigenous name that could be a single name in their traditional culture, not use the same alphabet or sounds or have an English or French translation. The name change could also have publication exemptions intended to prevent significant harm to the person. 
 ## Form accessibility
 ### Functional performance basics
 ### Technology neutral
