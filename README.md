@@ -7,7 +7,7 @@ An Indigenous name could be a single name in traditional culture, not use the sa
 ## Form accessibility
 ### Functional performance basics
 ### Technology neutral
-Guidance is generic to apply to more than one platform or current or emerging technology. 
+Guidance is generic to apply to more than one platform including current and emerging technology. 
 
 ## Language
 ### Language basics
