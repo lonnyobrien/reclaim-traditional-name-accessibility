@@ -2,7 +2,7 @@
 # reclaim-traditional-name-accessibility
 ## Traditional language
 ### Traditional language basics
-1. [ ] It should be possible to associate a language with any piece of natural language text that will be read by a user.
+1. [ ] It should be possible to associate a traditional language with any piece of natural language text that will be read by a user.
 1. [ ] Where possible, there should  be a way to label natural language changes in inline text.
 1. [ ] Consider whether it is useful to express the <a href="https://w3c.github.io/bp-i18n-specdev/#sec_lang_meta">intended linguistic audience</a> of a resource, in addition to specifying the language used for <a href="https://w3c.github.io/bp-i18n-specdev/#sec_text_processing_lang">text processing</a>.
 1. [ ] A language declaration that indicates the <a href="https://w3c.github.io/bp-i18n-specdev/#sec_text_processing_lang">text processing language</a> for a range of text must associate  a single language  value with a specific range of text.
@@ -11,25 +11,25 @@
 1. [ ] Attributes that express the language of external resources should not use the HTML <code class="kw" translate="no">lang</code> and XML <code class="kw" translate="no">xml:lang</code> language attributes, but should use a different attribute when they represent metadata (which indicates the intended use of the resource rather than the language of a specific range of text).
 
 ### Defining traditional language values
-1. [ ] Values for language declarations must use BCP 47.
+1. [ ] Values for traditional language declarations must use BCP 47.
 1. [ ] Refer to BCP 47, not to RFC 5646.
 1. [ ] Be specific about what level of conformance you expect for language tags: BCP 47 defines two levels of conformance, "valid" and "well-formed".
 1. [ ] Specifications may require implementations to check if language tags are "valid", but in most circumstances should only require that the language tags be "well-formed".
 1. [ ] Specifications should require content and content authors to use "valid" language tags.
-1. [ ] Reference BCP47 for language tag matching.
+1. [ ] Reference BCP47 for traditional language tag matching.
 
 ### Declaring traditional language at the resource level
 1. [ ] The specification should indicate how to define the default text-processing language for the resource as a whole.
 1. [ ] Content within the resource should inherit the language of the text-processing declared at the resource level, unless it is specifically overridden.
 1. [ ] Consider whether it is necessary to have separate declarations to indicate the text-processing language versus metadata about the expected use of the resource.
-1. [ ] If there is only one language declaration for a resource, and it has more than one language tag as a value, it must be possible to identify the default text-processing language for the resource.
+1. [ ] If there is only one traditional language declaration for a resource, and it has more than one language tag as a value, it must be possible to identify the default text-processing language for the resource.
 
 ### Establishing the traditional language of a content block
 1. [ ] By default, blocks of content should inherit any text-processing language set for the resource as a whole.
 1. [ ] It should be possible to indicate a change in language for blocks of content where the language changes.
 
 ### Establishing the traditional language of inline runs
-1. [ ] It should be possible to indicate language for spans of inline text where the language changes.
+1. [ ] It should be possible to indicate traditional language for spans of inline text where the language changes.
 
 ## Text direction
 ### Basic requirements
