@@ -1,8 +1,11 @@
 # Reclaim traditional name form accessibility
-# reclaim-traditional-name-accessibility
-## Traditional language
-### Traditional language basics
-1. [ ] It should be possible to associate a traditional language with any piece of natural language text that will be read by a user.
+# reclaim-traditional-name-form-accessibility
+## Reclaim a traditional name in a form
+First Nations, Inuit or Métis residential school survivors and their family may reclaim their Indigenous name that could be a single name in their traditional culture, not use the same alphabet sounds or have an English or French translation. The name change could also have publication exemptions intended to prevent significant harm to the person. 
+
+## Language
+### Language basics
+1. [ ] It should be possible to associate a language with any piece of natural language text that will be read by a user.
 1. [ ] Where possible, there should  be a way to label natural language changes in inline text.
 1. [ ] Consider whether it is useful to express the <a href="https://w3c.github.io/bp-i18n-specdev/#sec_lang_meta">intended linguistic audience</a> of a resource, in addition to specifying the language used for <a href="https://w3c.github.io/bp-i18n-specdev/#sec_text_processing_lang">text processing</a>.
 1. [ ] A language declaration that indicates the <a href="https://w3c.github.io/bp-i18n-specdev/#sec_text_processing_lang">text processing language</a> for a range of text must associate  a single language  value with a specific range of text.
@@ -10,26 +13,26 @@
 1. [ ] It should be possible to associate a  metadata-type language declaration (which indicates the intended use of the resource rather than the language of a specific range of text)  with multiple language  values.
 1. [ ] Attributes that express the language of external resources should not use the HTML <code class="kw" translate="no">lang</code> and XML <code class="kw" translate="no">xml:lang</code> language attributes, but should use a different attribute when they represent metadata (which indicates the intended use of the resource rather than the language of a specific range of text).
 
-### Defining traditional language values
-1. [ ] Values for traditional language declarations must use BCP 47.
+### Defining language values
+1. [ ] Values for language declarations must use BCP 47.
 1. [ ] Refer to BCP 47, not to RFC 5646.
 1. [ ] Be specific about what level of conformance you expect for language tags: BCP 47 defines two levels of conformance, "valid" and "well-formed".
 1. [ ] Specifications may require implementations to check if language tags are "valid", but in most circumstances should only require that the language tags be "well-formed".
 1. [ ] Specifications should require content and content authors to use "valid" language tags.
-1. [ ] Reference BCP47 for traditional language tag matching.
+1. [ ] Reference BCP47 for language tag matching.
 
-### Declaring traditional language at the resource level
+### Declaring language at the resource level
 1. [ ] The specification should indicate how to define the default text-processing language for the resource as a whole.
 1. [ ] Content within the resource should inherit the language of the text-processing declared at the resource level, unless it is specifically overridden.
 1. [ ] Consider whether it is necessary to have separate declarations to indicate the text-processing language versus metadata about the expected use of the resource.
-1. [ ] If there is only one traditional language declaration for a resource, and it has more than one language tag as a value, it must be possible to identify the default text-processing language for the resource.
+1. [ ] If there is only one language declaration for a resource, and it has more than one language tag as a value, it must be possible to identify the default text-processing language for the resource.
 
-### Establishing the traditional language of a content block
+### Establishing the language of a content block
 1. [ ] By default, blocks of content should inherit any text-processing language set for the resource as a whole.
 1. [ ] It should be possible to indicate a change in language for blocks of content where the language changes.
 
-### Establishing the traditional language of inline runs
-1. [ ] It should be possible to indicate traditional language for spans of inline text where the language changes.
+### Establishing the language of inline runs
+1. [ ] It should be possible to indicate language for spans of inline text where the language changes.
 
 ## Text direction
 ### Basic requirements
@@ -44,19 +47,19 @@
 1. [ ] Values for the default base direction should include left-to-right, right-to-left, and auto.
 
 ### Handling direction in markup
-1. [ ] The spec should  indicate how to define a default base direction for the resource as a whole, ie. set the overall base direction.
-1. [ ] The  default base direction, in the absence of other information, should be LTR.
+1. [ ] The spec should indicate how to define a default base direction for the resource as a whole, ie. set the overall base direction.
+1. [ ] The default base direction, in the absence of other information, should be LTR.
 1. [ ] The content author must be able to indicate parts of the text where the base direction changes. At the block level, this should be achieved using attributes or metadata, and should not rely on Unicode control characters.
 1. [ ] It must be possible to also set the direction for content fragments to <code class="kw" translate="no">auto</code>. This means that the base direction will be determined by examining the content itself.
 1. [ ] If the overall base direction is set to <code class="kw" translate="no">auto</code> for plain text, the direction of content paragraphs should be determined on a paragraph by paragraph basis.
-1. [ ] To indicate the sides of a block of text  relative to the start and end of its contained lines,  use 'block-start' and 'block-end', rather than 'top' and 'bottom'.
-1. [ ] To indicate the start/end of a line  you should use 'start' and 'end', or 'inline-start' and 'inline-end', rather than 'left' and 'right'.
+1. [ ] To indicate the sides of a block of text relative to the start and end of its contained lines, use 'block-start' and 'block-end', rather than 'top' and 'bottom'.
+1. [ ] To indicate the start/end of a line you should use 'start' and 'end', or 'inline-start' and 'inline-end', rather than 'left' and 'right'.
 1. [ ] Provide dedicated attributes for control of base direction and bidirectional overrides; do not rely on the user applying style properties to arbitrary markup to achieve bidi control.
 
 ### Handling base direction for strings
 1. [ ] Provide metadata constructs that can be used to indicate the base direction of any natural language string.
-1. [ ] Specify that consumers of strings should use  heuristics, preferably based on the Unicode Standard first-strong algorithm, to detect the base direction of a string except where metadata is provided.
-1. [ ] Where possible, define a field to  indicate the default direction for all strings in a given resource or document.
+1. [ ] Specify that consumers of strings should use heuristics, preferably based on the Unicode Standard first-strong algorithm, to detect the base direction of a string except where metadata is provided.
+1. [ ] Where possible, define a field to indicate the default direction for all strings in a given resource or document.
 1. [ ] Do NOT assume that a creating a document-level default without the ability to change direction for any string is sufficient.
 1. [ ] If metadata is not available due to legacy implementations and cannot otherwise be provided, specifications <em class="rfc2119">MAY<!---0.239331%--></em> allow a base direction to be interpolated from available language metadata.
 1. [ ] Specifications <em class="rfc2119">MUST NOT<!---0.239331%--></em> require the production or use of paired bidi controls.
@@ -239,7 +242,7 @@
 
 ### Ruby text annotations
 1. [ ] 'Ruby' style annotations alongside base text should be supported for Chinese, Japanese, Korean and Mongolian text, in both horizontal and vertical writing modes.
-1. [ ] Ruby implementations should  support zhuyin fuhao (bopomofo) ruby for Traditional Chinese.
+1. [ ] Ruby implementations should  support zhuyin fuhao (bopomofo) ruby for  Chinese.
 1. [ ] Ruby implementations should  support a tabular content model (such that ruby contents can be arranged in a sequence approximating to <code class="kw" translate="no">rb rb rt rt</code>).
 1. [ ] Ruby implementations should make it possible to use an explicit element for ruby bases, like the <code class="kw" translate="no">rb</code> element in HTML.
 1. [ ] Ruby implementations should allow annotations to appear on either or both sides of the base text.
@@ -303,5 +306,3 @@
 ## Navigation
 ### Providing for  content negotiation based on language
 1. [ ] In a multilingual environment it must be possible for the user to receive text in the language they prefer. This may depend on implicit user preferences based on the user's system or browser setup, or on user settings explicitly negotiated with the user.
-
-
