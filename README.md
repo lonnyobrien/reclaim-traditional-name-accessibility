@@ -1,5 +1,5 @@
-# Traditional name form accessibility
-# traditional-name-form-accessibility
+# Traditional name and form accessibility
+# traditional-name-and-form-accessibility
 ## Scope
 Provide developer guidance to better support the digital accessibility needs of First Nations, Inuit or Métis and their family members with disabilities when using Indigenous names on forms on websites, web apps and in electronic documents.
 ## Traditional name
