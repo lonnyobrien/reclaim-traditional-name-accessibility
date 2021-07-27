@@ -1,7 +1,11 @@
 # Reclaim traditional name form accessibility
 # reclaim-traditional-name-form-accessibility
-## Reclaim a traditional name in a form
+## Reclaim a traditional name
 First Nations, Inuit or Métis residential school survivors and their family may reclaim their Indigenous name that could be a single name in their traditional culture, not use the same alphabet sounds or have an English or French translation. The name change could also have publication exemptions intended to prevent significant harm to the person. 
+## Form accessibility
+### Functional performance basics
+### Technology neutral
+Guidance is generic to apply to more than one platform or current or emerging technology. 
 
 ## Language
 ### Language basics
