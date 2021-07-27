@@ -1,27 +1,27 @@
 # Traditional name and form accessibility
 # traditional-name-and-form-accessibility
 ## Scope
-Provide developer guidance to better support the digital accessibility needs of First Nations, Inuit or Métis community members with disabilities when using Indigenous names on forms on websites, web apps and in electronic documents.
+Provide developer guidance to better support the digital accessibility needs of First Nations, Inuit or Métis community members with disabilities when using their Indigenous names on forms found on websites, web apps and in electronic documents.
 ## Traditional name
 An Indigenous name could be a single name in traditional culture, not use the same alphabet or sounds, or have an English or French translation. The name change could also have publication exemptions intended to prevent significant harm to the person. Residential school survivors and their family members may also reclaim their traditional name.
 ## Form accessibility
 ### Performance
 Forms should be easy for First Nations, Inuit or Métis community members with permanent, temporary or situational disabilities to use with (or without) assistive technologies regardless of physical, cognitive or sensory abilities. 
 ### Errors
-Automatically detected errors should be described in the text and corrections suggested unless it would jeopardize security. Field labels and  form instructions should be provided when content requires user input. Avoid placeholder text in form fields that can be read aloud by assistive technology and not have enough contrast variance.
+Automatically detected errors should be described in the text and corrections suggested unless it would jeopardize security. Field labels and form instructions should be provided when content requires client input. Avoid placeholder text in form fields that can be read aloud by assistive technology and not have enough contrast variance.
 ### Commitments
 Forms with legal commitments or financial transactions should be reversible and provide options for reviewing, confirming, and correcting errors before final submission. 
 ### Processes
 For authentication steps provide a way that does not rely on a cognitive test or help to assist the client in completing the test. 
-### Redundant entry
-Information previously provided by the user is available for the user to select except when re-entering the information is essential.
-### Technology neutral
-Guidance is generic to apply to more than one platform including current and emerging technology.
-### Email field validation
+### Redundancy
+Information previously provided by the client is available to select except when re-entering the information is essential.
+### Technology
+Guidance is generic to apply to more than one platform including current and future technology.
+### Email
 When defining email field validation, allow for EAI (smtputf8) names.
 ## Language
-The following section is adapted from the Internationalization Best Practices for Spec Developers, Create a github checklist. <a href="https://github.com/w3c/bp-i18n-specdev/">Internationalization Best Practices for Spec Developers</a>
-### Language basics
+The following section is adapted from the Internationalization Best Practices for Spec Developers, Create a github checklist. <a href="https://github.com/w3c/bp-i18n-specdev/">Internationalization Best Practices for Spec Developers, GitHub Repository</a>
+### Basics
 1. [ ] It should be possible to associate a language with any piece of natural language text that will be read by a user.
 1. [ ] Where possible, there should  be a way to label natural language changes in inline text.
 1. [ ] Consider whether it is useful to express the <a href="https://w3c.github.io/bp-i18n-specdev/#sec_lang_meta">intended linguistic audience</a> of a resource, in addition to specifying the language used for <a href="https://w3c.github.io/bp-i18n-specdev/#sec_text_processing_lang">text processing</a>.
@@ -30,7 +30,7 @@ The following section is adapted from the Internationalization Best Practices fo
 1. [ ] It should be possible to associate a  metadata-type language declaration (which indicates the intended use of the resource rather than the language of a specific range of text)  with multiple language  values.
 1. [ ] Attributes that express the language of external resources should not use the HTML <code class="kw" translate="no">lang</code> and XML <code class="kw" translate="no">xml:lang</code> language attributes, but should use a different attribute when they represent metadata (which indicates the intended use of the resource rather than the language of a specific range of text).
 
-### Defining language values
+### Values
 1. [ ] Values for language declarations must use BCP 47.
 1. [ ] Refer to BCP 47, not to RFC 5646.
 1. [ ] Be specific about what level of conformance you expect for language tags: BCP 47 defines two levels of conformance, "valid" and "well-formed".
@@ -38,17 +38,17 @@ The following section is adapted from the Internationalization Best Practices fo
 1. [ ] Specifications should require content and content authors to use "valid" language tags.
 1. [ ] Reference BCP47 for language tag matching.
 
-### Declaring language at the resource level
+### Resource level
 1. [ ] The specification should indicate how to define the default text-processing language for the resource as a whole.
 1. [ ] Content within the resource should inherit the language of the text-processing declared at the resource level, unless it is specifically overridden.
 1. [ ] Consider whether it is necessary to have separate declarations to indicate the text-processing language versus metadata about the expected use of the resource.
 1. [ ] If there is only one language declaration for a resource, and it has more than one language tag as a value, it must be possible to identify the default text-processing language for the resource.
 
-### Establishing the language of a content block
+### Content block
 1. [ ] By default, blocks of content should inherit any text-processing language set for the resource as a whole.
 1. [ ] It should be possible to indicate a change in language for blocks of content where the language changes.
 
-### Establishing the language of inline runs
+### Language inline
 1. [ ] It should be possible to indicate language for spans of inline text where the language changes.
 
 ## Text direction
