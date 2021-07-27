@@ -20,6 +20,7 @@ Guidance is generic to apply to more than one platform including current and eme
 ### Email field validation
 When defining email field validation, allow for EAI (smtputf8) names.
 ## Language
+The following section is adapted from the Internationalization Best Practices for Spec Developers, Create a github checklist. <a href="https://github.com/w3c/bp-i18n-specdev/">Internationalization Best Practices for Spec Developers</a>
 ### Language basics
 1. [ ] It should be possible to associate a language with any piece of natural language text that will be read by a user.
 1. [ ] Where possible, there should  be a way to label natural language changes in inline text.
