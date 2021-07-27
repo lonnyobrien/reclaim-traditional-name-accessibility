@@ -222,7 +222,7 @@ The following section is adapted from the Internationalization Best Practices fo
 1. [ ] Resource identifiers must permit the use of characters outside those of plain ASCII.
 1. [ ] Specifications <em class="rfc2119">MUST<!---0.239331%--></em> define when the conversion from IRI references to URI references (or subsets thereof) takes place, in accordance with Internationalized Resource Identifiers (IRIs).
 
-## Markup & syntax
+## Markup and syntax
 ### Defining elements and attributes
 1. [ ] Do not define attribute values that will contain user readable content. Use elements for such content.
 1. [ ] If you do define attribute values containing user readable content, provide a means to indicate directional and language information for that text separately from the text contained in the element.
