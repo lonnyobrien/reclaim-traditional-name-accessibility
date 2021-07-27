@@ -321,4 +321,5 @@ The following section is adapted from the Internationalization Best Practices fo
 ### Providing for  content negotiation based on language
 1. [ ] In a multilingual environment it must be possible for the user to receive text in the language they prefer. This may depend on implicit user preferences based on the user's system or browser setup, or on user settings explicitly negotiated with the user.
 # Americas Language Enablement (amlreq)
-This repository provides information on gaps in support for languages of the Americas on the Web and in eBooks, and to document requirements. < a href="https://github.com/w3c/amlreq/">Americas Language Enablement (amlreq) GitHub Repo</a>
+This repository provides information on gaps in support for languages of the Americas on the Web and in eBooks, and to document requirements. 
+<a href="https://github.com/w3c/amlreq/">Americas Language Enablement (amlreq) GitHub Repo</a>
