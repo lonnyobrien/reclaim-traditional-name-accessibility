@@ -19,6 +19,8 @@ Information previously provided by the client is available to select except when
 Guidance is generic to apply to more than one platform including current and future technology.
 ### Email
 When defining email field validation, allow for EAI (smtputf8) names.
+### Sign Language Only Video 
+When provide form instructions using sign language only video, sign languages do not have a written form to map to a written language when providing captions, transcripts and when translating sign languages to subtitles. This is an open issue with the World Wide Web Consortium (W3C). Examples of sign languages: American Sign Language (ASL), Langue des signes du Québec (LSQ), Maritime Sign Language, Oneida Sign Language, Plains Sign Language, Black Sign Language (BSL) and Inuiuuk (Inuit Sign Language). Several hundred language tags for sign languages are available in the language subtag registry that contains codes to identify languages on webpages and in documents.
 ## Language
 The following section is adapted from the Internationalization Best Practices for Spec Developers, Create a GitHub checklist. <a href="https://github.com/w3c/bp-i18n-specdev/">Internationalization Best Practices for Spec Developers, GitHub Repository</a>
 ### Basics
