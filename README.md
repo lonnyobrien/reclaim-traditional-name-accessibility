@@ -329,6 +329,8 @@ The following section is adapted from the Internationalization Best Practices fo
 ### Americas Language Enablement (amlreq)
 This repository provides information on gaps in support for languages of the Americas on the Web and in eBooks, and to document requirements. 
 <a href="https://github.com/w3c/amlreq/">Americas Language Enablement (amlreq) GitHub Repo</a>
+### WebVTT: The Web Video Text Tracks 
+This repository provides defines WebVTT, the Web Video Text Tracks format for marking up external text track resources in connection with the HTML <track> element to provide captions or subtitles for video content and any form of metadata that is time-aligned with audio or video content. <a href="https://w3c.github.io/webvtt/#introduction-other-features">WebVTT: The Web Video Text Tracks Format, Draft Community Group Report, 29 April 2021</a>
 ### WAI-ARIA: Authoring Practices Guide
 This repository maintains the WAI-ARIA Authoring Practices Guide. <a href="https://github.com/w3c/aria-practices">WAI-ARIA: Authoring Practices Guide, GitHub Repository</a>
 ### World Wide Web Consortium (W3C) GitHub Repository 
