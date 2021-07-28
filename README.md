@@ -4,6 +4,8 @@
 Provide developer guidance to better support the digital accessibility needs of First Nations, Inuit or Métis community members with disabilities when using their Indigenous names on forms found on websites, web apps and in electronic documents.
 ## Traditional name
 An Indigenous name could be a single name in traditional culture, not use the same alphabet or sounds, or have an English or French translation. The name change could also have publication exemptions intended to prevent significant harm to the person. Residential school survivors and their family members may also reclaim their traditional name.
+### Totem
+Scalable Vector Graphics (SVG) files allow totem with multilingual descriptive text based on the ‘lang’ attribute and support internationalization of the ‘desc’ and ‘title’ elements.
 ## Form accessibility
 ### Performance
 Forms should be strive to be easy for First Nations, Inuit or Métis community members with permanent, temporary or situational disabilities to use with (or without) assistive technologies regardless of physical, cognitive or sensory abilities. 
@@ -20,9 +22,11 @@ Guidance is generic to apply to more than one platform including current and fut
 ### Email
 When defining email field validation, allow for EAI (smtputf8) names.
 ### Sign Language Only Video 
-When provide form instructions using sign language only video, sign languages do not have a written form to map to a written language when providing captions, transcripts and when translating sign languages to subtitles. This is an open issue with the World Wide Web Consortium (W3C). Examples of sign languages: American Sign Language (ASL), Langue des signes du Québec (LSQ), Maritime Sign Language, Oneida Sign Language, Plains Sign Language, Black Sign Language (BSL) and Inuiuuk (Inuit Sign Language). Several hundred language tags for sign languages are available in the language subtag registry that contains codes to identify languages on webpages and in documents.
+When providing form instructions using sign language only video, sign languages do not have a written form to map to a written language when providing captions, transcripts and when translating sign languages to subtitles. Examples of sign languages: American Sign Language (ASL), Langue des signes du Québec (LSQ), Maritime Sign Language, Oneida Sign Language, Plains Sign Language, Black Sign Language (BSL) and Inuiuuk (Inuit Sign Language). Several hundred language tags for sign languages are available in the language subtag registry that contains codes to identify languages on webpages and in documents. This is an open issue with the World Wide Web Consortium (W3C). <a href="https://github.com/w3c/wcag/issues/1910">W3C WCAG 1.2.1 language to be used in media-alternatives for sign-language videos #1910</a> 
 ### WebVTT: Web Video Text Tracks Format
 When providing form instructions using video, caption files can indicate changes to and from Indigenous languages. This is done by using classes on elements, for localization, styling and to indicate a language change in the cue text.
+### WAI-ARIA (Accessible Rich Internet Applications) Translatable States and Properties
+In order for forms to be understandable by assistive technology users, the values of the following states and properties should be translated when a form is localized: aria-label, aria-placeholder, aria-roledescription and aria-valuetext.  
 ## Language
 The following section is adapted from the Internationalization Best Practices for Spec Developers, Create a GitHub checklist. <a href="https://github.com/w3c/bp-i18n-specdev/">Internationalization Best Practices for Spec Developers, GitHub Repository</a>
 ### Basics
@@ -329,6 +333,8 @@ The following section is adapted from the Internationalization Best Practices fo
 ### Americas Language Enablement (amlreq)
 This repository provides information on gaps in support for languages of the Americas on the Web and in eBooks, and to document requirements. 
 <a href="https://github.com/w3c/amlreq/">Americas Language Enablement (amlreq) GitHub Repo</a>
+### Accessible Rich Internet Applications (WAI-ARIA) 1.3, W3C Editor's Draft 27 July 2021
+This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress <a href="https://w3c.github.io/aria/#translatable-states-and-properties">Accessible Rich Internet Applications (WAI-ARIA) 1.3</a>
 ### WebVTT: The Web Video Text Tracks 
 This repository provides defines WebVTT, the Web Video Text Tracks format for marking up external text track resources in connection with the HTML <track> element to provide captions or subtitles for video content and any form of metadata that is time-aligned with audio or video content. <a href="https://w3c.github.io/webvtt/#introduction-other-features">WebVTT: The Web Video Text Tracks Format, Draft Community Group Report, 29 April 2021</a>
 ### WAI-ARIA: Authoring Practices Guide
