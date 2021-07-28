@@ -5,7 +5,9 @@ Provide developer guidance to better support the digital accessibility needs of 
 ## Traditional name
 An Indigenous name could be a single name in traditional culture, not use the same alphabet or sounds, or have an English or French translation. The name change could also have publication exemptions intended to prevent significant harm to the person. Residential school survivors and their family members may also reclaim their traditional name.
 ### Totem
-Scalable Vector Graphics (SVG) files allow totem with multilingual descriptive text based on the ‘lang’ attribute and support internationalization of the ‘desc’ and ‘title’ elements.
+Totem uploaded as Scalable Vector Graphics (SVG) files can provide multilingual descriptive text based on the ‘lang’ attribute and support internationalization of the ‘desc’ and ‘title’ elements. SVG files can define accessible names and descriptions using <title> and <desc> with Accessible Rich Internet Applications (ARIA) for assistive technology.  
+### Unicode
+
 ## Form accessibility
 ### Performance
 Forms should be strive to be easy for First Nations, Inuit or Métis community members with permanent, temporary or situational disabilities to use with (or without) assistive technologies regardless of physical, cognitive or sensory abilities. 
