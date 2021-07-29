@@ -1,13 +1,13 @@
 # Traditional name and form accessibility
 # traditional-name-and-form-accessibility
 ## Scope
-Provide developer guidance to better support the digital accessibility needs of First Nations, Inuit and Métis community members with disabilities when using their Indigenous names on forms found on websites, web apps and in electronic documents.
+Provide developer guidance to better support the digital accessibility needs of Indigenous (for example: First Nations, Inuit and Métis) community members with disabilities when choosing to use their Indigenous names on forms found on websites, web apps and in electronic documents. 
 ## Traditional name
-An Indigenous name could be a single name in traditional culture, not use the same alphabet or sounds, or have an English or French translation. The name change could also have publication exemptions intended to prevent significant harm to the person. Residential school survivors and their family members may also reclaim their traditional name.
+An Indigenous name could be a single name in traditional culture, not use the same alphabet or sounds, or have an English or French translation. A name change could also have publication exemptions intended to prevent significant harm to the person. Residential school survivors and their family members may also reclaim their traditional name. 
 ### Doodem, clan or totem
-Pictographic uploaded as a Scalable Vector Graphics (SVG) file can provide multilingual descriptive text based on the ‘lang’ attribute and support internationalization of the ‘desc’ and ‘title’ elements. SVG files can define accessible names and descriptions using <title> and <desc> with Accessible Rich Internet Applications (ARIA) for assistive technology.  
-### Syllabics
-
+A pictographic uploaded as a Scalable Vector Graphics (SVG) file can provide multilingual descriptive text based on the ‘lang’ attribute and support internationalization of the ‘desc’ and ‘title’ elements. SVG files can define accessible names and descriptions using <title> and with Accessible Rich Internet Applications (ARIA) for assistive technology users. 
+### Canadian Aboriginal Syllabics
+The Unicode Standard encodes Canadian Syllabics (script code: cans) available by following the Unicode Consortium’s <a href="http://www.unicode.org/versions/latest/">The Unicode Standard</a>.
 ## Form accessibility
 ### Performance
 Forms should be strive to be easy for First Nations, Inuit or Métis community members with permanent, temporary or situational disabilities to use with (or without) assistive technologies regardless of physical, cognitive or sensory abilities. 
