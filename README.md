@@ -336,8 +336,7 @@ The following section is adapted from the Internationalization Best Practices fo
 
 ## World Wide Web Consortium (W3C) resources
 ### Americas Language Enablement (amlreq)
-This repository provides information on gaps in support for languages of the Americas on the Web and in eBooks, and to document requirements. 
-<a href="https://github.com/w3c/amlreq/">Americas Language Enablement (amlreq) GitHub Repo</a>
+This repository provides information on gaps in support for languages of the Americas. Follow <a href="https://github.com/w3c/amlreq/">Americas Language Enablement (amlreq) GitHub Repo</a>.
 ### Accessible Rich Internet Applications (WAI-ARIA) 1.3, W3C Editor's Draft 27 July 2021
 This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress <a href="https://w3c.github.io/aria/#translatable-states-and-properties">Accessible Rich Internet Applications (WAI-ARIA) 1.3</a>
 ### WebVTT: The Web Video Text Tracks 
