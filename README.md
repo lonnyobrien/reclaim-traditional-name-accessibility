@@ -10,9 +10,9 @@ A pictographic uploaded as a Scalable Vector Graphics (SVG) file can provide mul
 The Unicode Standard encodes Canadian Syllabics (script code: cans) available by following the Unicode Consortium’s <a href="http://www.unicode.org/versions/latest/">The Unicode Standard</a>.
 ## Form accessibility
 ### Performance
-Forms should be strive to be easy for First Nations, Inuit or Métis community members with permanent, temporary or situational disabilities to use with (or without) assistive technologies regardless of physical, cognitive or sensory abilities. 
+Forms should strive to be easy for Indigenous (for example: First Nations, Inuit and Métis) community members with disabilities with permanent, temporary, or situational disabilities to use with (or without) assistive technologies regardless of physical, cognitive, or sensory abilities.  
 ### Errors
-Automatically detected errors should be described in the text and corrections suggested unless it would jeopardize security. Field labels and form instructions should be provided to explain client input. Avoid placeholder text in form fields that can be read aloud by assistive technology and not have enough contrast variance.
+Automatically detected errors should be described in the text and corrections suggested unless it would jeopardize security. Field labels and form instructions should be provided to explain client input. Avoid placeholder text in form fields that can be read aloud by assistive technology and not have enough contrast variance. 
 ### Commitments
 Forms with legal commitments or financial transactions should be reversible and provide options for reviewing, confirming, and correcting errors before final submission. 
 ### Processes
@@ -22,9 +22,11 @@ Information previously provided by the client is available to select except when
 ### Technology
 Guidance is generic to apply to more than one platform including current and future technology.
 ### Email
-When defining email field validation, allow for EAI (smtputf8) names.
+When defining email field validation, allow for Email Address Internationalization (EAI), Simple Mail Transfer Protocol Unicode Transformation Format 8-bit (smtputf8) names. 
 ### Sign Language Only Video 
-When providing form instructions using sign language only video, sign languages do not have a written form to map to a written language when providing captions, transcripts and when translating sign languages to subtitles. Examples of sign languages: American Sign Language (ASL), Langue des signes du Québec (LSQ), Maritime Sign Language, Oneida Sign Language, Plains Sign Language, Black Sign Language (BSL) and Inuiuuk (Inuit Sign Language). Several hundred language tags for sign languages are available in the language subtag registry that contains codes to identify languages on webpages and in documents. This is an open issue with the World Wide Web Consortium (W3C). <a href="https://github.com/w3c/wcag/issues/1910">W3C WCAG 1.2.1 language to be used in media-alternatives for sign-language videos #1910</a> 
+When providing form instructions using sign language only video, sign languages do not have a written form to map to a written language when providing captions, transcripts and when translating sign languages to subtitles. There is a related open issue with the World Wide Web Consortium (W3C) <a href="https://github.com/w3c/wcag/issues/1910">W3C WCAG 1.2.1 language to be used in media-alternatives for sign-language videos #1910</a>
+### Examples of sign languages  
+American Sign Language (ASL), Langue des signes du Québec (LSQ), Maritime Sign Language, Oneida Sign Language, Plains Sign Language, Black Sign Language (BSL) and Inuiuuk (Inuit Sign Language). Several hundred language tags for sign languages are available in the language subtag registry that contains codes to identify languages on webpages and in documents.  
 ### WebVTT: Web Video Text Tracks Format
 When providing form instructions using video, caption files can indicate changes to and from Indigenous languages. This is done by using classes on elements, for localization, styling and to indicate a language change in the cue text.
 ### WAI-ARIA (Accessible Rich Internet Applications) Translatable States and Properties
