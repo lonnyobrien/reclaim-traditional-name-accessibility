@@ -30,9 +30,9 @@ American Sign Language (ASL), Langue des signes du Québec (LSQ), Maritime Sign 
 ### WebVTT: Web Video Text Tracks Format
 When providing form instructions using video, caption files can indicate changes to and from Indigenous languages. This is done by using classes on elements, for localization, styling and to indicate a language change in the cue text.
 ### WAI-ARIA (Accessible Rich Internet Applications) Translatable States and Properties
-In order for forms to be understandable by assistive technology users, the values of the following states and properties should be translated when a form is localized: aria-label, aria-placeholder, aria-roledescription and aria-valuetext.  
+Forms must also have the values of the following states and properties translated when a form is localized: aria-label, aria-placeholder, aria-roledescription and aria-valuetext.  
 ## Language
-The following section is adapted from the Internationalization Best Practices for Spec Developers, Create a GitHub checklist. <a href="https://github.com/w3c/bp-i18n-specdev/">Internationalization Best Practices for Spec Developers, GitHub Repository</a>
+The following section is adapted from the Internationalization Best Practices for Spec Developers, Create a GitHub checklist available by following: <a href="https://github.com/w3c/bp-i18n-specdev/">Internationalization Best Practices for Spec Developers, GitHub Repository</a>
 ### Basics
 1. [ ] It should be possible to associate a language with any piece of natural language text that will be read by a user.
 1. [ ] Where possible, there should  be a way to label natural language changes in inline text.
