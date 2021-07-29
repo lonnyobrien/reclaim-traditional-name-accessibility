@@ -1,7 +1,7 @@
 # Traditional name and form accessibility
 # traditional-name-and-form-accessibility
 ## Scope
-Provide developer’s robust specifications in GitHub repos to create forms on websites and web apps that support the digital accessibility needs of Indigenous community members with disabilities when choosing to use their Indigenous names.   
+Provide developer’s robust specifications in GitHub repos to create forms on websites and web apps that support the digital accessibility needs of Indigenous community members with disabilities when they choose to use their Indigenous names.   
 ## Traditional name
 An Indigenous name could be a single name in traditional culture, not use the same alphabet or sounds, or have an English or French translation. A name change could also have publication exemptions intended to prevent significant harm to a family. Residential school survivors and their family members may also reclaim their traditional name.  
 ### Doodem, clan or totem
@@ -9,7 +9,7 @@ A pictographic uploaded as a Scalable Vector Graphics (SVG) file can provide mul
 ### Canadian Aboriginal Syllabics
 The Unicode Standard encodes Canadian Syllabics (script code: cans) that are available by following the Unicode Consortium’s <a href="http://www.unicode.org/versions/latest/">Unicode Standard</a>.
 ## Form accessibility
-Focusing inclusive design best practices on ensuring Indigenous community members with disabilities improves service for everyone and access to complete their task quickly and easily the first time.
+Focusing inclusive design best practices on ensuring Indigenous community members with disabilities may improve service access for everyone to complete forms more easily the first time.
 ### Performance
 Forms are often the most complex part of a service experience provided through a website or app. Developers should strive to make forms easy to use for Indigenous community members with permanent, temporary, or situational disabilities to use with (or without) assistive technologies regardless of physical, cognitive, or sensory abilities.  
 ### Prevent errors
