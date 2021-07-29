@@ -1,22 +1,23 @@
 # Traditional name and form accessibility
 # traditional-name-and-form-accessibility
 ## Scope
-Provide developer guidance to better support the digital accessibility needs of Indigenous (for example: First Nations, Inuit and Métis) community members with disabilities when choosing to use their Indigenous names on forms found on websites, web apps and in electronic documents. 
+Provide developer’s robust specifications in GitHub repos to create forms on websites and web apps that support the digital accessibility needs of Indigenous community members with disabilities when choosing to use their Indigenous names.   
 ## Traditional name
-An Indigenous name could be a single name in traditional culture, not use the same alphabet or sounds, or have an English or French translation. A name change could also have publication exemptions intended to prevent significant harm to the person. Residential school survivors and their family members may also reclaim their traditional name. 
+An Indigenous name could be a single name in traditional culture, not use the same alphabet or sounds, or have an English or French translation. A name change could also have publication exemptions intended to prevent significant harm to a family. Residential school survivors and their family members may also reclaim their traditional name.  
 ### Doodem, clan or totem
-A pictographic uploaded as a Scalable Vector Graphics (SVG) file can provide multilingual descriptive text based on the ‘lang’ attribute and support internationalization of the ‘desc’ and ‘title’ elements. SVG files can define accessible names and descriptions using <title> and with Accessible Rich Internet Applications (ARIA) for assistive technology users. 
+A pictographic uploaded as a Scalable Vector Graphics (SVG) file can provide multilingual descriptive text based on the ‘lang’ attribute and support internationalization of the ‘desc’ and ‘title’ elements. SVG files can define accessible names and descriptions using <title> and with Accessible Rich Internet Applications (ARIA) for assistive technology users.  
 ### Canadian Aboriginal Syllabics
-The Unicode Standard encodes Canadian Syllabics (script code: cans) available by following the Unicode Consortium’s <a href="http://www.unicode.org/versions/latest/">The Unicode Standard</a>.
+The Unicode Standard encodes Canadian Syllabics (script code: cans) that are available by following the Unicode Consortium’s <a href="http://www.unicode.org/versions/latest/">Unicode Standard</a>.
 ## Form accessibility
+Focusing inclusive design best practices on ensuring Indigenous community members with disabilities improves service for everyone and access to complete their task quickly and easily the first time.
 ### Performance
-Forms should strive to be easy for Indigenous (for example: First Nations, Inuit and Métis) community members with disabilities with permanent, temporary, or situational disabilities to use with (or without) assistive technologies regardless of physical, cognitive, or sensory abilities.  
-### Errors
-Automatically detected errors should be described in the text and corrections suggested unless it would jeopardize security. Field labels and form instructions should be provided to explain client input. Avoid placeholder text in form fields that can be read aloud by assistive technology and not have enough contrast variance. 
+Forms are often the most complex part of a service experience provided through a website or app. Developers should strive to make forms easy to use for Indigenous community members with permanent, temporary, or situational disabilities to use with (or without) assistive technologies regardless of physical, cognitive, or sensory abilities.  
+### Prevent errors
+Use clear field labels and form instructions that prepare for and explain client input. Avoid placeholder text in form fields that can be read aloud by assistive technology and do not have enough contrast variance. Avoid mistakes by providing time needed without timeouts and data loss. Ensure controls and content do not move unexpectedly. Provide the ability to go back and review information entered. Automatically detected errors should provide instructions, not just error messages, and suggest corrections in the text unless this would jeopardize security. Avoid restricting entries to arbitrary lengths and insisting on specific separator characters.
 ### Commitments
-Forms with legal commitments or financial transactions should be reversible and provide options for reviewing, confirming, and correcting errors before final submission. 
+Forms with legal commitments or financial transactions should be reversible and provide options for reviewing, confirming, undoing mistakes, returning to a previous point and correcting errors before final submission. Instructions and feedback about the benefits, risks and consequences of each option should be clear and concise. 
 ### Processes
-For authentication steps provide a way that does not rely on a cognitive test or help to assist the client in completing the test. 
+Processes should not rely on memory. Avoid interruptions and distractions. Include only necessary steps. For authentication steps provide a way that does not rely on a cognitive test or help to assist the client in completing the test. Do not require navigating menu systems and follow Voice user interfaces (VUIs) best practices to reach human help.  
 ### Redundancy
 Information previously provided by the client is available to select except when re-entering the information is essential.
 ### Technology
@@ -30,7 +31,7 @@ American Sign Language (ASL), Langue des signes du Québec (LSQ), Maritime Sign 
 ### WebVTT: Web Video Text Tracks Format
 When providing form instructions using video, caption files can indicate changes to and from Indigenous languages. This is done by using classes on elements, for localization, styling and to indicate a language change in the cue text.
 ### WAI-ARIA (Accessible Rich Internet Applications) Translatable States and Properties
-Forms must also have the values of the following states and properties translated when a form is localized: aria-label, aria-placeholder, aria-roledescription and aria-valuetext.  
+Follow common design pattern and widget examples available in WAI-ARIA authoring best practices that are made accessible on desktop by applying WAI-ARIA roles, states, and properties and provide keyboard support. Forms must also have the values of the following states and properties translated when a form is localized: aria-label, aria-placeholder, aria-roledescription and aria-valuetext.  
 ## Language
 The following section is adapted from the Internationalization Best Practices for Spec Developers, Create a GitHub checklist available by following: <a href="https://github.com/w3c/bp-i18n-specdev/">Internationalization Best Practices for Spec Developers, GitHub Repository</a>
 ### Basics
@@ -307,13 +308,13 @@ The following section is adapted from the Internationalization Best Practices fo
 1. [ ] Allow for users to be asked separately how they would like you be addressed when someone contacts them.
 1. [ ] If parts of a person's name are captured separately, ensure that the separate items can capture all relevant information.
 1. [ ] Be careful about assumptions built into algorithms that pull out the parts of a name automatically.
-1. [ ] Don't assume that a single letter name is an initial.
-1. [ ] Don't require that people supply a family name.
-1. [ ] ​ Don't forget to allow people to use punctuation such as hyphens, apostrophes, etc. in names.
-1. [ ] Don't require names to be entered all in upper case.
-1. [ ] Don't normalize the casing in names.
+1. [ ] Do not assume that a single letter name is an initial.
+1. [ ] Do not require that people supply a family name.
+1. [ ] ​ Do not forget to allow people to use punctuation such as hyphens, apostrophes, etc. in names.
+1. [ ] Do not require names to be entered all in upper case.
+1. [ ] Do not normalize the casing in names.
 1. [ ] Allow the user to enter a name with spaces.
-1. [ ] Don't assume that members of the same family will share the same family name.
+1. [ ] Do not assume that members of the same family will share the same family name.
 1. [ ] It may be better for a form to ask for 'Previous name' rather than 'Maiden name' or 'née'.
 1. [ ] You may want to store the name in both Latin and native scripts, in which case you probably need to ask the user to submit their name in both native script and Latin-only form, as separate items.
 1. [ ] In standards and standards related documents containing examples that include names of persons, use a variety of names to reflect a global audience. Avoid a bias of names specific to certain regions.
