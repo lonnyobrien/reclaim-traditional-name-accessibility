@@ -11,7 +11,7 @@ The Unicode Standard encodes Canadian Syllabics (script code: cans) that are ava
 ## Form accessibility
 Focusing inclusive design best practices on ensuring Indigenous community members with disabilities may improve service access for everyone to complete forms more easily the first time.
 ### Performance
-Forms are often the most complex part of a service experience provided through a website or app. Developers should strive to make forms easy to use for Indigenous community members with permanent, temporary, or situational disabilities to use with (or without) assistive technologies regardless of physical, cognitive, or sensory abilities.  
+Forms are often the most complex part of a service experience journey map provided through a website or app. Developers should strive to make forms easy to use for Indigenous community members with permanent, temporary, or situational disabilities to use with (or without) assistive technologies regardless of physical, cognitive, or sensory abilities.  
 ### Prevent errors
 Use clear field labels and form instructions that prepare clients and explain client input. Avoid placeholder text in form fields that can be read aloud by assistive technology and do not have enough contrast variance. Avoid mistakes by providing time needed without timeouts and data loss. Ensure controls and content do not move unexpectedly. Provide the ability to go back and review information entered. Automatically detected errors should provide instructions, not just error messages, and suggest corrections in the text unless this would jeopardize security. Avoid restricting entries to arbitrary lengths and insisting on specific separator characters.
 ### Commitments
