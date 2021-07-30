@@ -1,7 +1,7 @@
 # Traditional name and form accessibility
 # traditional-name-and-form-accessibility
 ## Scope
-Provide developer’s robust specifications in GitHub repos to create forms on websites and web apps that support the digital accessibility needs of Indigenous community members with disabilities when they choose to use their Indigenous names.   
+Provide developer’s robust specifications to edit and use in GitHub repos to create forms on websites and web apps that support the digital accessibility needs of Indigenous community members with disabilities when they choose to use their Indigenous names.   
 ## Traditional name
 An Indigenous name could be a single name in traditional culture, not use the same alphabet or sounds, or have an English or French translation. A name change could also have publication exemptions intended to prevent significant harm to a family. Residential school survivors and their family members may also reclaim their traditional name.  
 ### Doodem, clan or totem
